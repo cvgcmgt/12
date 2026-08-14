@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>Site moved</title>
+  <script>
+    (function () {
+      var path = window.location.pathname || "/";
+      path = path.replace(/^\/cvgcmgt(?=\/|$)/, "");
+      path = path.replace(/^\/12(?=\/|$)/, "");
+      if (!path || path === "/") {
+        path = "/";
+      }
+      var target = "https://cvgcmgt.vercel.app" + path + window.location.search + window.location.hash;
+      window.location.replace(target);
+    })();
+  </script>
+</head>
+<body>
+  <p>এই সাইটটি নতুন ঠিকানায় সরানো হয়েছে।</p>
+  <p><a href="https://cvgcmgt.vercel.app/">নতুন সাইটে যান</a></p>
+</body>
+</html>
